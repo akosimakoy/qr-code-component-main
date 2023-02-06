@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--White);
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     overflow: hidden;
     padding: 1rem;
     box-shadow: 1px 5px 20px 1px rgba(0,0,0,0.1);
