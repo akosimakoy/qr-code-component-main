@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root { 
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+
+}
+body {
+    background-color: var(--Light-gray);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+}
+.qr_code_component {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--White);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 1rem;
+    box-shadow: 1px 5px 20px 1px rgba(0,0,0,0.1);
+}
+.qr_code_component-image {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.qr_code_component-items {
+    padding: 1.5rem 1rem 2rem 1rem;
+    text-align: center;
+}
+.qr_code_component-title {
+    font-size: 1.25rem;
+    color: var(--Dark-blue);
+    margin-block-end: 1rem;
+}
+.qr_code_component-description {
+    color: var(--Grayish-blue);
+}
